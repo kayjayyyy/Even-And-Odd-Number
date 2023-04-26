@@ -22,3 +22,12 @@ def process():
                 # if odd, write/append it in odd.txt file
                 output_odd_file.write(str(integers) + "\n")
 process()
+
+# Outro and border line
+print("\n")
+print("\033[33mPlease check for the even.txt file and odd.txt file\033[0m".center(80))
+print("\n")
+print("\033[3mThank you! Have a great day!".center(70))
+print("")
+print("\033[35m※ \033[0m" * 35)
+print("")
